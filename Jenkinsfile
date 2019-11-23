@@ -4,13 +4,12 @@ pipeline {
     stage('Instanciar') {
       steps {
         echo 'Iniciando Proceso'
-        bat 'systeminfo'
       }
     }
 
     stage('Build') {
       steps {
-        bat 'gcc --version'
+        sh 'uname -a'
       }
     }
 
