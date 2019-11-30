@@ -18,8 +18,8 @@ pipeline {
 
         stage('Build Web') {
           steps {
-            sh 'date'
             sleep 3
+            bat 'path'
           }
         }
 
