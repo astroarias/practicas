@@ -11,8 +11,8 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sh 'chdir'
             sleep 1
+            echo 'Iniciando el proceso'
           }
         }
 
