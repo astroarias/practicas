@@ -11,7 +11,7 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sh 'uname -a'
+            sh 'winver'
             sleep 1
           }
         }
