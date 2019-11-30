@@ -11,14 +11,14 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sh 'winver'
+            sh 'chdir'
             sleep 1
           }
         }
 
         stage('Build Web') {
           steps {
-            sh 'php --version'
+            sh 'date'
             sleep 3
           }
         }
